@@ -123,17 +123,7 @@ public class Livraria {
         return false;
     }
 
-    public int pesquisarFuncionario(String nome, String sobrenome) {
-        int quantidade = 0;
 
-        for(Funcionario funcionario : listaDeFuncionarios) {
-            if ((funcionario.getNome().equalsIgnoreCase(nome)) && (funcionario.getSobrenome().equalsIgnoreCase(sobrenome))){
-                quantidade++;
-            }
-        }
-
-        return quantidade;
-    }
 
 
 }
