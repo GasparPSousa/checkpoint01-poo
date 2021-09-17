@@ -5,7 +5,7 @@ public class Caixa extends Funcionario{
     private double salarioBase;
 
     public Caixa(String nome, String sobrenome) {
-        
+
         super(nome, sobrenome);
     }
 
